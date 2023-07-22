@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.menu.MainFragment"
+    android:background="@drawable/menu_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="130dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/playBtn"
+                android:layout_width="251dp"
+                android:layout_height="62dp"
+                android:background="@drawable/play_btn"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageButton
+                android:id="@+id/quizBtn"
+                android:layout_width="251dp"
+                android:layout_height="62dp"
+                android:background="@drawable/quiz_btn"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

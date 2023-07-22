@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragment.quiz.ResultFragment"
+    android:background="@color/blue_back">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageButton
+          android:id="@+id/logo"
+          android:layout_width="160dp"
+          android:layout_height="70dp"
+          android:background="@drawable/logo"
+          android:layout_marginTop="40dp"
+          android:layout_centerHorizontal="true"/>
+
+      <TextView
+          android:id="@+id/quizTitle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Quiz"
+          android:layout_below="@id/logo"
+          android:gravity="center"
+          android:textColor="@color/white"
+          android:textSize="32dp"
+          android:textStyle="bold"/>
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          app:cardCornerRadius="20dp">
+
+          <LinearLayout
+              android:layout_width="300dp"
+              android:layout_height="320dp"
+              android:orientation="vertical">
+
+              <TextView
+                  android:id="@+id/scoreTV"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/dark_blue"
+                  android:textSize="32dp"
+                  android:textStyle="bold"
+                  android:gravity="center"
+                  android:layout_marginTop="20dp"/>
+
+              <TextView
+                  android:id="@+id/recordTV"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text=" Record: 0"
+                  android:textColor="@color/dark_blue"
+                  android:textSize="32dp"
+                  android:textStyle="bold"
+                  android:gravity="center"
+                  android:layout_marginTop="5dp"/>
+
+              <ImageButton
+                  android:id="@+id/restartBtn"
+                  android:layout_width="250dp"
+                  android:layout_height="60dp"
+                  android:background="@drawable/restart_btn"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="50dp"
+                  android:layout_marginBottom="15dp"/>
+
+              <ImageButton
+                  android:id="@+id/menuBtn"
+                  android:layout_width="250dp"
+                  android:layout_height="60dp"
+                  android:background="@drawable/menu_btn"
+                  android:layout_gravity="center"/>
+
+          </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+
+  </RelativeLayout>
+
+</FrameLayout>

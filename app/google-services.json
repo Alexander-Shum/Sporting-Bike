@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "686491542723",
+    "project_id": "sportingbike-52752",
+    "storage_bucket": "sportingbike-52752.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686491542723:android:3229f0cbecbfc7597aee76",
+        "android_client_info": {
+          "package_name": "com.example.sportingbike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686491542723-cod11uq7o8ksg1bqdvreclc82do1o770.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNmMmnvWIAwCm1krh7JoXD4IzqC8gm-QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686491542723-cod11uq7o8ksg1bqdvreclc82do1o770.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
